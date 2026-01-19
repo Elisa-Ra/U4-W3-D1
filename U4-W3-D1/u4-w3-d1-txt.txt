@@ -12,7 +12,7 @@ WHERE anno_di_nascita = 1982;
 
 - Estrarre il numero delle fatture con iva al 20%.
 
-SELECT numero_fattura
+SELECT COUNT(*)
 FROM fatture
 WHERE iva = 20;
 
@@ -58,5 +58,6 @@ ORDER BY anno;
 - [EXTRA] Estrarre gli anni in cui sono state registrate più di 2 fatture con tipologia ‘A’.
 - [EXTRA] Estrarre il totale degli importi delle fatture divisi per residenza dei clienti.
 - [EXTRA] Estrarre il numero dei clienti nati nel 1980 che hanno almeno una fattura superiore a 50 euro.
+
 
 
